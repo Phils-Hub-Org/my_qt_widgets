@@ -1,0 +1,32 @@
+<RCC>
+  <qresource prefix="888EAC-20px">
+    <file>Icons/888EAC-20px/map.svg</file>
+    <file>Icons/888EAC-20px/external-link.svg</file>
+    <file>Icons/888EAC-20px/zap.svg</file>
+    <file>Icons/888EAC-20px/chevrons-down.svg</file>
+    <file>Icons/888EAC-20px/crosshair.svg</file>
+    <file>Icons/888EAC-20px/plus-square.svg</file>
+    <file>Icons/888EAC-20px/tool.svg</file>
+    <file>Icons/888EAC-20px/package.svg</file>
+    <file>Icons/888EAC-20px/check.svg</file>
+    <file>Icons/888EAC-20px/log-in.svg</file>
+    <file>Icons/888EAC-20px/plus.svg</file>
+    <file>Icons/888EAC-20px/message-circle.svg</file>
+    <file>Icons/888EAC-20px/message-square.svg</file>
+    <file>Icons/888EAC-20px/link.svg</file>
+    <file>Icons/888EAC-20px/link-2.svg</file>
+    <file>Icons/888EAC-20px/power.svg</file>
+    <file>Icons/888EAC-20px/layout.svg</file>
+    <file>Icons/888EAC-20px/minus.svg</file>
+    <file>Icons/888EAC-20px/settings.svg</file>
+    <file>Icons/888EAC-20px/x.svg</file>
+    <file>Icons/888EAC-20px/arrow-left.svg</file>
+    <file>Icons/888EAC-20px/arrow-right.svg</file>
+    <file>Icons/888EAC-20px/arrow-down.svg</file>
+    <file>Icons/888EAC-20px/arrow-up.svg</file>
+  </qresource>
+  <qresource prefix="Images"/>
+  <qresource prefix="ico">
+    <file>Icons/ico/phils-hub.ico</file>
+  </qresource>
+</RCC>
