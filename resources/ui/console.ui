@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Console</class>
+ <widget class="QWidget" name="Console">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>730</width>
+    <height>379</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Console</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolTip {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #5b5e60;
+    padding: 4px;
+    border-radius: 4px;
+    opacity: 200;
+    font-size: 12px;
+}
+
+QFrame {
+    background-color: #2e2e2e;
+    border-radius: 4px;
+}
+
+QPlainTextEdit {
+    color: #fff;
+    border: 1px solid #5b5e60;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+QPlainTextEdit:focus {
+    border-color: #4a90e2;
+    background-color: #3a3a3a;
+}
+
+QPushButton {
+    background-color: #3c3f41;
+    color: #fff;
+    border: 1px solid #5b5e60;
+    border-radius: 4px;
+    padding: 0px 0px;
+}
+
+QPushButton:hover {
+    border-color: #4a90e2;
+}
+
+QPushButton:pressed {
+    background-color: #3d78b2;
+    border-color: #2a5f92;
+}
+
+QPushButton:checked {
+    background-color: #4a90e2;
+    border-color: #3d78b2;
+    color: #fff;
+}
+
+QScrollBar:vertical {
+    background: #111;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #61657B;
+    min-height: 15px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #ff6b27;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    border: none;
+    width: 0;
+    height: 0;
+    background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>3</number>
+   </property>
+   <property name="topMargin">
+    <number>3</number>
+   </property>
+   <property name="rightMargin">
+    <number>3</number>
+   </property>
+   <property name="bottomMargin">
+    <number>3</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::Shape::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>1</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPlainTextEdit" name="console">
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>Block count limit: 100</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPlainTextEdit {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::NoFrame</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+        <property name="tabStopDistance">
+         <double>16.000000000000000</double>
+        </property>
+        <property name="maximumBlockCount">
+         <number>100</number>
+        </property>
+        <property name="placeholderText">
+         <string>Console...</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">QFrame {
+	background: transparent;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="close_console_btn">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Close</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="clear_console_btn">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}</string>
+           </property>
+           <property name="text">
+            <string>Clear</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
